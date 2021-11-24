@@ -2,6 +2,8 @@
 
 1º - Crie um delegate chamado Filter, que pode referenciar métodos que recebem um int como 
 parâmetro e retornam um bool. 
+
+#
 2º - Depois, crie um método chamado FilterList(), que recebe como parâmetro uma lista de 
 números inteiros e um delegate Filter. Este método deve invocar o delegate Filter em cada 
 um dos elementos e, no final, retornar uma nova lista. Esta nova lista conterá apenas os 
